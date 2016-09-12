@@ -1,32 +1,9 @@
-# PMG Programming Challenges
+# PHP CSV Combiner
 
-A few small programming challenges that let us see how job candidates work.
+Combine multiple CSVs data with similar columns and output that information with an additional column containing the file name. Use the command below to run the script.
 
-## What Languages Can I Use?
+Run the following command in the terminal from the root folder to test. If you would like to use other files than the ones provided, you'll simply need to place the file inside the fixtures folder and add the filename as another argument to the command below.
 
-Just about anything you like, but we work mostly with...
+`php csv-combiner.php accessories.csv clothing.csv household_cleaners.csv`
 
-- PHP
-- JavaScript (node & in browser)
-- Python
-- Go
-
-## How do I ask questions?
-
-[Open an issue](https://github.com/AgencyPMG/ProgrammingChallenges/issues).
-
-## How long should I spend on this?
-
-Hopefully less than about an hour. If you find a problem is taking a long time,
-let us know! Chances are it's probably too big for this set of challenges.
-
-## Can I use third-party libraries?
-
-Sure! We're interested in seeing how you work, treat this challenge like any
-other project.
-
-## How do I submit my answer?
-
-Send an email to tech@pmg.com or reach out to the person who gave you the
-challenge. Feel free to send an archive (a tar or zipball are fine) or link us
-to a public pastebin (github gist, etc) or repository (bitbucket, github, etc).
+If you attempt to add another another argument that is not a valid CSV, it will not run the process and alert you what file is missing.
